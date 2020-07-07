@@ -6,7 +6,7 @@ router.get('/users', (req, res) => {
 });
 
 router.get('/user/:id', (req, res) => {
-    res.send('el usuaario con id' + req.param.id);
+    res.send('el usuario con id' + req.param.id);
 });
 
 module.exports = router;
