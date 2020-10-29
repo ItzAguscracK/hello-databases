@@ -8,7 +8,7 @@ const User = require('./models/User');
 
 // la URI de la db
 //const db = 'mongodb://localhost/hellodb';
-const db = 'mongodb+srv://hellodb:hellodb@cluster0.xbhvq.gcp.mongodb.net/hellodb?retryWrites=true&w=majority'
+const db = process.env.MONGODB_URI
 
 // array de usuarios para ingresar a la db
 const users = [
